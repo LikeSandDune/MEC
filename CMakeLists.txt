@@ -108,8 +108,6 @@ add_subdirectory(external/portaudio portaudio)
 add_subdirectory(external/cJSON cjson)
 add_subdirectory(external/rtmidi rtmidi)
 add_subdirectory(external/moodycamel)
-add_subdirectory(external/SoundplaneLite/splite)
-add_subdirectory(external/EigenLite/eigenapi)
 
 if(NOT DISABLE_NUI) 
     message("NUI  enabled")
